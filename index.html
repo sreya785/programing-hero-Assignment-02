@@ -8,29 +8,41 @@
     <title>Document</title>
 </head>
 <body class="inter-font">
-    <header>
-        <section class="flex place-content-between   bg-[rgba(26,11,46,1)]">
-           <div class="pl-[200px] pt-[30px] pb-[30px]"> 
+    <header class="bg-[rgba(26,11,46,1)]">
+        <nav class="flex justify-between items-center w-full">
+           <div class="pl-[200px]"> 
              <h3 class="text-3xl font-semibold text-[#FFFFFF]">Tech<span class="bg-[linear-gradient(47.64deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))] bg-clip-text text-transparent">Wave</span></h3>
            </div>
-           <div class="pt-[36px] pd-[36px]">
-            <ul class="flex gap-[32px] text-[#FFFFFF] font-medium">
+           <div class="">
+            <ul class="flex gap-9 text-[#FFFFFF] font-medium">
                 <li>About</li>
                 <li>Episodes</li>
                 <li>Host</li>
             </ul>
             </div>
-             <div class="pr-[200px] pt-[24px] pb-[24px]"> 
+             <div class="pr-[200px] pt-[24px]"> 
                  <button class="flex gap-[4px] justify-center items-center pt-[12px] pr-[16px] pb-[12px] pl-[16px] rounded-[10000px] text-[#FFFFFF] font-semibold bg-[linear-gradient(47.64deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))]">Subscribe <img src="./assets/ArrowRight.png" alt=""></button>
             </div>
- 
-        </section>
-        
-
+        </nav>
     </header>
     <main>
-        
-
+        <section class="bg-[url('./assets/hero-bg.png')] h-screen bg-cover bg-center">
+                <img class="absolute top-35 left-145 w-[350px] h-[350px]" src="./assets/hero-circle.png" alt="">
+                <img class="absolute top-53 left-164 pt-[8.33px] pr-[41.67px] pd-[16.67px] pl-[41.67px] w-[200px] h-[200px]" src="./assets/microphone.png" alt="">
+                 
+                <h1 class="text-center pt-[450px] font-extrabold text-[60px] text-[#FFFFFF]">TechWave</h1>
+                <p class="text-center text-[#FFFFFF]">Your daily dose of tech insights, productivity hacks, and personal growth</p>
+               <div class="flex justify-center items-center  gap-2 pt-[50px]">
+                <button class="flex rounded-[10000px] gap-2 justify-center items-center px-[20px] py-[12px] font-semibold text-[#FFFFFF] bg-[linear-gradient(47.64deg,rgba(247,233,63,1),rgba(251,9,180,1),rgba(145,0,248,1))]"><img src="./assets/spotify.png" alt="">Listen on Spotify</button>
+                <button class="flex rounded-[10000px] gap-2 justify-center items-center px-[20px] py-[12px] font-semibold text-[#00FF88] border border-[1px] border-[#00FF88]"><img src="./assets/message.png" alt="">Subscribe</button>
+               </div>
+        </section>
+         <section>
+            <h1>About the Podcast</h1>
+            <p>TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br> We break down complex topics into digestible insights, explore productivity strategies that actually work,<br> and share stories of personal growth from industry leaders.</p>
+            <p>Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+         </section>
+         <hr>
     </main>
     <footer>
 
